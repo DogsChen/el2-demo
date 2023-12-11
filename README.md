@@ -1,5 +1,7 @@
 # el2-demo
 
+elementUI的使用案例，方便快速熟悉el组件。 以及可行性验证
+
 ## Project setup
 ```
 npm install
