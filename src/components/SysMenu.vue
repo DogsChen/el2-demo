@@ -2,6 +2,7 @@
     <div>
         <el-menu default-activate="/home" router>
             <template>
+                <!-- 当前写法仅支持二级菜单 -->
                 <div v-for="it, index in MenuDataSource" :key="index">
                     <el-submenu v-if="it.children" :index="it.title">
                         <template slot="title">
