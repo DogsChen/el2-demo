@@ -13,6 +13,13 @@ const routes = [
         }
   }, 
   {
+    path: '/13-eltree',
+    name: '13-eltree',
+    component:  function () {
+          return import('@/views/202312/13-eltree.vue')
+        }
+  }, 
+  {
     path: '/',
     name: 'home',
     // redirect:'home'
